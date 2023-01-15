@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Basic_law"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/purple_500">
+
+            <ImageButton
+                android:id="@+id/back"
+                android:src="@drawable/ic_baseline_arrow_back_24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/purple_500"
+                android:padding="25dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/basic_law"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:background="@color/purple_500"
+                android:padding="25dp"/>
+
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Fundamental Rights - Article 8-28"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_margin="25dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1) Slavery is non-existent and forbidden and no law shall permit or facilitate its introduction into Pakistan in any form."
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_marginHorizontal="25dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2) All forms of forced labour and traffic in human beings are prohibited."
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_marginHorizontal="25dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="3) No child below the age of fourteen years shall be engaged in any factory or mine or any other hazardous employment."
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_marginHorizontal="25dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="9) Security of person"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_marginHorizontal="25dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="No person shall be deprived of life or liberty save in accordance with law."
+                    android:textSize="12dp"
+                    android:textColor="@color/black"
+                    android:layout_marginHorizontal="25dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="10) Safeguards as to arrest and detention"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_marginHorizontal="25dp"
+                    android:layout_marginBottom="10dp"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="No person who is arrested shall be detained in custody without being informed, as soon as may be, of the grounds for such arrest, nor shall he be denied the right to consult and be defended by a legal practitioner of his choice."
+                    android:textSize="12dp"
+                    android:textColor="@color/black"
+                    android:layout_marginHorizontal="25dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="11) Slavery, forced labour, etc"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_marginHorizontal="25dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Prohibited"
+                    android:textSize="12dp"
+                    android:textColor="@color/black"
+                    android:layout_marginHorizontal="25dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="15) Freedom of movement, etc"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_marginHorizontal="25dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Every citizen shall have the right to remain in, and, subject to any reasonable restriction imposed by law in the public interest, enter and move freely throughout Pakistan and to reside and settle in any part thereof."
+                    android:textSize="12dp"
+                    android:textColor="@color/black"
+                    android:layout_marginHorizontal="25dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="19) Freedom of speech, etc"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_marginHorizontal="25dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Every citizen shall have the right to freedom of speech and expression, and there shall be freedom of the press, subject to any reasonable restrictions imposed by law in the interest of the glory of Islam or the integrity, security or defence of Pakistan or any part thereof, friendly relations with foreign States, public order, decency or morality, or in relation to contempt of court,  33[commission of] 33 or incitement to an offence."
+                    android:textSize="12dp"
+                    android:textColor="@color/black"
+                    android:layout_marginHorizontal="25dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="19 A) Right to information"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_marginHorizontal="25dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Every citizen shall have the right to have access to information in all matters of public importance subject to regulation and reasonable restrictions imposed by law."
+                    android:textSize="12dp"
+                    android:textColor="@color/black"
+                    android:layout_marginHorizontal="25dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="26) Non-discrimination in respect of access to public places"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_marginHorizontal="25dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="(1) In respect of access to places of public entertainment or resort not intended for religious purposes only, there shall be no discrimination against any citizen on the ground only of race, religion, caste, sex, residence or place of birth."
+                    android:textSize="12dp"
+                    android:textColor="@color/black"
+                    android:layout_marginHorizontal="25dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="بنیادی حقوق - آرٹیکل 8-28"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_margin="25dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1) غلامی غیر موجود اور حرام ہے اور کوئی قانون پاکستان میں اسے کسی بھی شکل میں متعارف کرانے کی اجازت یا سہولت نہیں دے گا۔"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_marginHorizontal="25dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2) انسانوں سے ہر قسم کی جبری مشقت اور ٹریفک ممنوع ہے۔"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_marginHorizontal="25dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="3) چودہ سال سے کم عمر کے کسی بچے کو کسی فیکٹری یا کان یا کسی اور خطرناک ملازمت میں نہیں لگایا جائے گا۔"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_marginHorizontal="25dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="9) شخص کی حفاظت"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_marginHorizontal="25dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="قانون کے مطابق کسی بھی شخص کو زندگی یا آزادی سے محروم نہیں کیا جائے گا۔قانون کے مطابق کسی بھی شخص کو زندگی یا آزادی سے محروم نہیں کیا جائے گا۔"
+                    android:textSize="12dp"
+                    android:textColor="@color/black"
+                    android:layout_marginHorizontal="25dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="10) گرفتاری اور نظربندی کے تحفظات"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_marginHorizontal="25dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="قانون کے مطابق کسی بھی شخص کو زندگی یا آزادی سے محروم نہیں کیا جائے گا۔قانون کے مطابق کسی بھی شخص کو زندگی یا آزادی سے محروم نہیں کیا جائے گا۔کسی بھی شخص کو جسے گرفتار کیا گیا ہے، اس طرح کی گرفتاری کی وجوہات کے بارے میں بتائے بغیر حراست میں نہیں رکھا جائے گا، اور نہ ہی اسے اپنی پسند کے قانونی ماہر سے مشورہ کرنے اور اس کا دفاع کرنے کے حق سے انکار کیا جائے گا۔"
+                    android:textSize="12dp"
+                    android:textColor="@color/black"
+                    android:layout_marginHorizontal="25dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="11) غلامی، جبری مشقت وغیرہ ممنوع ہے۔"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_marginHorizontal="25dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="15) نقل و حرکت کی آزادی وغیرہ"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_marginHorizontal="25dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ہر شہری کو یہ حق حاصل ہوگا کہ وہ عوامی مفاد میں قانون کی طرف سے لگائی گئی کسی بھی معقول پابندی کے تابع، پورے پاکستان میں آزادانہ طور پر داخل ہونے اور نقل و حرکت کرنے اور اس کے کسی بھی حصے میں رہنے اور آباد ہونے کا حق رکھتا ہے۔"
+                    android:textSize="12dp"
+                    android:textColor="@color/black"
+                    android:layout_marginHorizontal="25dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="19) آزادی اظہار وغیرہ"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_marginHorizontal="25dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ہر شہری کو اظہار رائے کی آزادی کا حق حاصل ہوگا، اور صحافت کی آزادی ہوگی، جو اسلام کی شان یا پاکستان کی سالمیت، سلامتی یا دفاع یا کسی بھی حصے کے مفاد میں قانون کے ذریعے عائد کی گئی کسی بھی معقول پابندی کے تابع ہو گی۔ اس میں، غیر ملکی ریاستوں کے ساتھ دوستانہ تعلقات، امن عامہ، شائستگی یا اخلاقیات، یا توہین عدالت کے سلسلے میں، 33[کمیشن] 33 یا کسی جرم پر اکسانا۔"
+                    android:textSize="12dp"
+                    android:textColor="@color/black"
+                    android:layout_marginHorizontal="25dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="19 اے) آزادی اظہار وغیرہ"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_marginHorizontal="25dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ہر شہری کو اظہار رائے کی آزادی کا حق حاصل ہوگا، اور صحافت کی آزادی ہوگی، جو اسلام کی شان یا پاکستان کی سالمیت، سلامتی یا دفاع یا کسی بھی حصے کے مفاد میں قانون کے ذریعے عائد کی گئی کسی بھی معقول پابندی کے تابع ہو گی۔ اس میں، غیر ملکی ریاستوں کے ساتھ دوستانہ تعلقات، امن عامہ، شائستگی یا اخلاقیات، یا توہین عدالت کے سلسلے میں، 33[کمیشن] 33 یا کسی جرم پر اکسانا۔ہر شہری کو عوامی اہمیت کے تمام معاملات میں معلومات تک رسائی حاصل کرنے کا حق ہوگا ضابطے اور قانون کی طرف سے عائد کردہ معقول پابندیوں کے تابع۔"
+                    android:textSize="12dp"
+                    android:textColor="@color/black"
+                    android:layout_marginHorizontal="25dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="26) عوامی مقامات تک رسائی کے سلسلے میں غیر امتیازی سلوک"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_marginHorizontal="25dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ہر شہری کو اظہار رائے کی آزادی کا حق حاصل ہوگا، اور صحافت کی آزادی ہوگی، جو اسلام کی شان یا پاکستان کی سالمیت، سلامتی یا دفاع یا کسی بھی حصے کے مفاد میں قانون کے ذریعے عائد کی گئی کسی بھی معقول پابندی کے تابع ہو گی۔ اس میں، غیر ملکی ریاستوں کے ساتھ دوستانہ تعلقات، امن عامہ، شائستگی یا اخلاقیات، یا توہین عدالت کے سلسلے میں، 33[کمیشن] 33 یا کسی جرم پر اکسانا۔ہر شہری کو عوامی اہمیت کے تمام معاملات میں معلومات تک رسائی حاصل کرنے کا حق ہوگا ضابطے اور قانون کی طرف سے عائد کردہ معقول پابندیوں کے تابع۔(1) عوامی تفریحی مقامات یا تفریحی مقامات تک رسائی کے سلسلے میں جو صرف مذہبی مقاصد کے لیے نہیں ہیں، کسی بھی شہری کے ساتھ صرف نسل، مذہب، ذات، جنس، رہائش یا جائے پیدائش کی بنیاد پر کوئی امتیاز نہیں برتا جائے گا۔"
+                    android:textSize="12dp"
+                    android:textColor="@color/black"
+                    android:layout_marginHorizontal="25dp"
+                    android:layout_marginBottom="10dp"/>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

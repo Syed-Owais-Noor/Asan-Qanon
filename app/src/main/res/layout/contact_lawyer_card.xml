@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/user_detail1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/purple_500"
+        android:text="Name: Muhammad Tayyab \nExperience: More than 7 \nCases Fought: More than 7"
+        android:textSize="14dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textAlignment="viewStart"
+        android:paddingHorizontal="25dp"
+        android:paddingVertical="10dp" />
+
+    <TextView
+        android:id="@+id/user_detail2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/purple_500"
+        android:text="Email: example@gmail.com \nContact: 03333333333 \nWhatsApp: 03333333333"
+        android:textSize="12dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textAlignment="viewStart"
+        android:paddingHorizontal="25dp"
+        android:paddingBottom="25dp"
+        android:layout_marginBottom="5dp"/>
+
+
+</LinearLayout>

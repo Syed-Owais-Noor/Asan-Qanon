@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CyberLaw"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/purple_500">
+
+            <ImageButton
+                android:id="@+id/back"
+                android:src="@drawable/ic_baseline_arrow_back_24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/purple_500"
+                android:paddingHorizontal="25dp"
+                android:paddingVertical="35dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/cyber_law"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:padding="25dp"/>
+
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="The Prevention of Electronic Crime Act (PECA) offers the below-given penalties for cyber criminals in Pakistan"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_margin="25dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Up to three years of imprisonment, 1 million PKR fine, or both for accessing critical information systems without authorisation."
+                    android:textSize="12dp"
+                    android:textColor="@color/black"
+                    android:layout_marginHorizontal="25dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Up to seven years of imprisonment, PKR 10 million fine or both for disruption of critical information systems with dishonest or fraudulent intentions."
+                    android:textSize="12dp"
+                    android:textColor="@color/black"
+                    android:layout_marginHorizontal="25dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Up to seven years of imprisonment, PKR 10 million fine or both for involvement in offence related to terrorism."
+                    android:textSize="12dp"
+                    android:textColor="@color/black"
+                    android:layout_marginHorizontal="25dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Up to six months of imprisonment, PKR 50 thousand fine or both for importing, exporting or supplying an electronic device for offensive use."
+                    android:textSize="12dp"
+                    android:textColor="@color/black"
+                    android:layout_marginHorizontal="25dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Up to three years of imprisonment, PKR 5 million fine or both for involvement in data breach. It may include the online distribution of someone’s personal data without consent."
+                    android:textSize="12dp"
+                    android:textColor="@color/black"
+                    android:layout_marginHorizontal="25dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="الیکٹرانک کرائم کی روک تھام کا ایکٹ (PECA) پاکستان میں سائبر مجرموں کے لیے درج ذیل سزاؤں کی پیشکش کرتا ہے۔"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_margin="25dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="بغیر اجازت کے اہم معلوماتی نظام تک رسائی پر تین سال تک قید، 10 لاکھ PKR جرمانہ یا دونوں ہو سکتے ہیں۔"
+                    android:textSize="12dp"
+                    android:textColor="@color/black"
+                    android:layout_marginHorizontal="25dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="بے ایمانی یا دھوکہ دہی کے ساتھ اہم معلوماتی نظام میں خلل ڈالنے پر سات سال تک قید، PKR 10 ملین جرمانہ یا دونوں ہو سکتے ہیں۔"
+                    android:textSize="12dp"
+                    android:textColor="@color/black"
+                    android:layout_marginHorizontal="25dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="دہشت گردی سے متعلق جرم میں ملوث ہونے پر سات سال تک قید، PKR 10 ملین جرمانہ یا دونوں ہو سکتے ہیں۔"
+                    android:textSize="12dp"
+                    android:textColor="@color/black"
+                    android:layout_marginHorizontal="25dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="جارحانہ استعمال کے لیے الیکٹرانک ڈیوائس کی درآمد، برآمد یا سپلائی پر چھ ماہ تک قید، 50 ہزار روپے جرمانہ یا دونوں۔"
+                    android:textSize="12dp"
+                    android:textColor="@color/black"
+                    android:layout_marginHorizontal="25dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ڈیٹا کی خلاف ورزی میں ملوث ہونے پر تین سال تک قید، 50 لاکھ روپے جرمانہ یا دونوں ہو سکتے ہیں۔ اس میں رضامندی کے بغیر کسی کے ذاتی ڈیٹا کی آن لائن تقسیم شامل ہوسکتی ہے۔"
+                    android:textSize="12dp"
+                    android:textColor="@color/black"
+                    android:layout_marginHorizontal="25dp"
+                    android:layout_marginBottom="10dp"/>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

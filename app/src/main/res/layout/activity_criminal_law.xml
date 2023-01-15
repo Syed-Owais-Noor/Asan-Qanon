@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CriminalLaw"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/purple_500">
+
+            <ImageButton
+                android:id="@+id/back"
+                android:src="@drawable/ic_baseline_arrow_back_24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/purple_500"
+                android:paddingVertical="25dp"
+                android:paddingHorizontal="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/criminal_law"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:padding="25dp"/>
+
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Amended by: Criminal Law (Amendment) Act, 2012 (XXIII of 2002)"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_margin="25dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="209) Dishonestly making false claim in Court:"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_marginHorizontal="25dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Whoever fraudulently or dishonestly, or with intent to injure any person, makes in a Court of Justice any claim which he knows to be false, shall be punished with imprisonment of either description for a term which may extend to two years, and shall also be liable to fine."
+                    android:textSize="12dp"
+                    android:textColor="@color/black"
+                    android:layout_marginHorizontal="25dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="363) Punishment for kidnapping:"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_marginHorizontal="25dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Whoever kidnaps any person from Pakistan or from lawful guardianship, shall be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine."
+                    android:textSize="12dp"
+                    android:textColor="@color/black"
+                    android:layout_marginHorizontal="25dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="391) Dacoity:"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_marginHorizontal="25dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="When five or more persons conjointly commit or attempt to commit a robbery, or where the whole number of persons conjointly committing or attempting to commit a robbery and persons present and aiding such commission or attempt, amount to five or more, every person so committing, attempting or aiding is said to commit 'dacoity'."
+                    android:textSize="12dp"
+                    android:textColor="@color/black"
+                    android:layout_marginHorizontal="25dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="393) Attempt to commit robbery:"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_marginHorizontal="25dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Whoever attempts to commit robbery shall be punished with rigorous imprisonment for a term, which may extend to seven years, and shall be liable to fine."
+                    android:textSize="12dp"
+                    android:textColor="@color/black"
+                    android:layout_marginHorizontal="25dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="396) Dacoity with murder:"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_marginHorizontal="25dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="If any one of five or more persons, who are conjointly committing dacoity, commits murder in so committing dacoity, everyone of those persons shall be punished with death, or imprisonment for life, or rigorous imprisonment for a term which  162[shall not be less than four years nor more than] 162 ten years, and shall also be liable to fine."
+                    android:textSize="12dp"
+                    android:textColor="@color/black"
+                    android:layout_marginHorizontal="25dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ترمیم شدہ بذریعہ: فوجداری قانون (ترمیمی) ایکٹ، 2012 (2002 کا XXIII)"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_margin="25dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="209) عدالت میں بے ایمانی سے جھوٹا دعویٰ کرنا:"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_marginHorizontal="25dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="جو کوئی بھی دھوکہ دہی سے یا بے ایمانی سے، یا کسی شخص کو نقصان پہنچانے کے ارادے سے، عدالت میں کوئی ایسا دعویٰ کرتا ہے جسے وہ جانتا ہے کہ جھوٹا ہے، اسے سزا دی جائے گی دونوں میں سے کسی ایک کی قید کی مدت کے لیے جو دو سال تک ہو سکتی ہے، اور جرمانے کے لئے ذمہ دار."
+                    android:textSize="12dp"
+                    android:textColor="@color/black"
+                    android:layout_marginHorizontal="25dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="363) اغوا کی سزا:"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_marginHorizontal="25dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="جو کوئی پاکستان سے یا قانونی سرپرستی سے کسی بھی شخص کو اغوا کرتا ہے، اسے سزا دی جائے گی جس کی مدت سات سال تک ہو سکتی ہے، اور جرمانہ بھی ہو گا۔"
+                    android:textSize="12dp"
+                    android:textColor="@color/black"
+                    android:layout_marginHorizontal="25dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="391) ڈاکو:"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_marginHorizontal="25dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="جو کوئی پاکستان سے یا قانونی سرپرستی سے کسی بھی شخص کو اغوا کرتا ہے، اسے سزا دی جائے گی جس کی مدت سات سال تک ہو سکتی ہے، اور جرمانہ بھی ہو گا۔جو کوئی پاکستان سے یا قانونی سرپرستی سے کسی بھی شخص کو اغوا کرتا ہے، اسے سزا دی جائے گی جس کی مدت سات سال تک ہو سکتی ہے، اور جرمانہ بھی ہو گا۔"
+                    android:textSize="12dp"
+                    android:textColor="@color/black"
+                    android:layout_marginHorizontal="25dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="391) ڈاکو:"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_marginHorizontal="25dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="جب پانچ یا زیادہ افراد مل کر ڈکیتی کا ارتکاب کرتے ہیں یا کرنے کی کوشش کرتے ہیں، یا جہاں تمام افراد مل کر ڈکیتی کا ارتکاب کرنے یا کرنے کی کوشش کرتے ہیں اور ایسے افراد یا کمیشن یا کوشش میں موجود اور مدد کرنے والے افراد کی تعداد پانچ یا اس سے زیادہ ہوتی ہے، تو ہر فرد ایسا کرنے والا، کوشش کرنے یا مدد کرنے کو 'ڈکیتی' کا ارتکاب کہا جاتا ہے۔"
+                    android:textSize="12dp"
+                    android:textColor="@color/black"
+                    android:layout_marginHorizontal="25dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="393) ڈکیتی کی کوشش:"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_marginHorizontal="25dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="جو بھی ڈکیتی کی کوشش کرے گا اسے ایک مدت کے لیے سخت قید کی سزا دی جائے گی، جو کہ سات سال تک ہو سکتی ہے، اور جرمانے کے قابل ہو گا۔"
+                    android:textSize="12dp"
+                    android:textColor="@color/black"
+                    android:layout_marginHorizontal="25dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="396) قتل کے ساتھ ڈاکو:"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_marginHorizontal="25dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="اگر پانچ یا اس سے زیادہ افراد میں سے کوئی ایک، جو مل کر ڈکیتی کا ارتکاب کر رہا ہے، اس طرح ڈکیتی میں قتل کا ارتکاب کرتا ہے، تو ان افراد میں سے ہر ایک کو سزائے موت، یا عمر قید، یا اس مدت کے لیے سخت قید کی سزا دی جائے گی جو کہ 162 سے کم نہیں ہوگی۔ چار سال یا اس سے زیادہ] 162 دس سال، اور جرمانے کے قابل بھی ہوں گے۔"
+                    android:textSize="12dp"
+                    android:textColor="@color/black"
+                    android:layout_marginHorizontal="25dp"
+                    android:layout_marginBottom="10dp"/>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

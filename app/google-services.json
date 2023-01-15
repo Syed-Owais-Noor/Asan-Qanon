@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "514848419165",
+    "project_id": "asanqanon",
+    "storage_bucket": "asanqanon.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:514848419165:android:38e277cf38a7b0f50b8cb4",
+        "android_client_info": {
+          "package_name": "com.example.mad_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "514848419165-ruf8eea7c2mpsi3f66usdnhkmlp68egk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPhDRr63y6leL8Uy9CvaHJ1YrOJvyD0J0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "514848419165-ruf8eea7c2mpsi3f66usdnhkmlp68egk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

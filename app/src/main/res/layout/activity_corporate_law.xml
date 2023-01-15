@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CorporateLaw"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/purple_500">
+
+            <ImageButton
+                android:id="@+id/back"
+                android:src="@drawable/ic_baseline_arrow_back_24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/purple_500"
+                android:paddingVertical="25dp"
+                android:paddingHorizontal="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/corporate_law"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:padding="25dp"/>
+
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="18) Freedom of trade, business or profession"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_margin="25dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Subject to such qualifications, if any, as may be prescribed by law, every citizen shall have the right to enter upon any lawful profession or occupation, and to conduct any lawful trade or business:"
+                    android:textSize="12dp"
+                    android:textColor="@color/black"
+                    android:layout_marginHorizontal="25dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Provided that nothing in this Article shall prevent:"
+                    android:textSize="12dp"
+                    android:textColor="@color/black"
+                    android:layout_marginHorizontal="25dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="a.	The regulation of any trade or profession by a licensing system; or"
+                    android:textSize="12dp"
+                    android:textColor="@color/black"
+                    android:layout_marginHorizontal="25dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b.	the regulation of trade, commerce or industry in the interest of free competition therein; or"
+                    android:textSize="12dp"
+                    android:textColor="@color/black"
+                    android:layout_marginHorizontal="25dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c.	the carrying on, by the Federal Government or a Provincial Government, or by a corporation controlled by any such Government, of any trade, business, industry or service, to the exclusion, complete or partial, of other persons."
+                    android:textSize="12dp"
+                    android:textColor="@color/black"
+                    android:layout_marginHorizontal="25dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="18) تجارت، کاروبار یا پیشے کی آزادی"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_margin="25dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ایسی قابلیت کے تابع، اگر کوئی ہے، جیسا کہ قانون کے ذریعہ تجویز کیا گیا ہے، ہر شہری کو کسی بھی حلال پیشے یا پیشے میں داخل ہونے، اور کوئی بھی حلال تجارت یا کاروبار کرنے کا حق حاصل ہوگا:"
+                    android:textSize="12dp"
+                    android:textColor="@color/black"
+                    android:layout_marginHorizontal="25dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ایسی قابلیت کے تابع، اگر کوئی ہے، جیسا کہ قانون کے ذریعہ تجویز کیا گیا ہے، ہر شہری کو کسی بھی حلال پیشے یا پیشے میں داخل ہونے، اور کوئی بھی حلال تجارت یا کاروبار کرنے کا حق حاصل ہوگا:"
+                    android:textSize="12dp"
+                    android:textColor="@color/black"
+                    android:layout_marginHorizontal="25dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="بشرطیکہ اس آرٹیکل میں کوئی چیز روکے نہ ہو:"
+                    android:textSize="12dp"
+                    android:textColor="@color/black"
+                    android:layout_marginHorizontal="25dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ا. لائسنسنگ سسٹم کے ذریعے کسی بھی تجارت یا پیشے کا ضابطہ؛ یا"
+                    android:textSize="12dp"
+                    android:textColor="@color/black"
+                    android:layout_marginHorizontal="25dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ب. لائسنسنگ سسٹم کے ذریعے کسی بھی تجارت یا پیشے کا ضابطہ؛ یاتجارت، تجارت یا صنعت کا ضابطہ اس میں آزاد مسابقت کے مفاد میں؛ یا"
+                    android:textSize="12dp"
+                    android:textColor="@color/black"
+                    android:layout_marginHorizontal="25dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="پ. لائسنسنگ سسٹم کے ذریعے کسی بھی تجارت یا پیشے کا ضابطہ؛ یاتجارت، تجارت یا صنعت کا ضابطہ اس میں آزاد مسابقت کے مفاد میں؛ یاوفاقی حکومت یا صوبائی حکومت کی طرف سے، یا ایسی کسی حکومت کے زیر کنٹرول کارپوریشن کے ذریعے، کسی بھی تجارت، کاروبار، صنعت یا خدمت کو، دوسرے افراد کو مکمل یا جزوی طور پر خارج کرنا۔"
+                    android:textSize="12dp"
+                    android:textColor="@color/black"
+                    android:layout_marginHorizontal="25dp"
+                    android:layout_marginBottom="10dp"/>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

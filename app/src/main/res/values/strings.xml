@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Asan Qanon</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="basic_law">Basic Law / بنیادی قوانین</string>
+    <string name="corporate_law">Corporate Laws / کارپوریٹ قوانین</string>
+    <string name="criminal_law">Criminal Laws / فوجداری قوانین</string>
+    <string name="cyber_law">Cyber Crime Laws / سائبر کرائم قوانین</string>
+</resources>
